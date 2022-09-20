@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: naazafrin <naazafrin@student.42.fr>        +#+  +:+       +#+        */
+/*   By: nafrin <nafrin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/14 10:35:21 by naazafrin         #+#    #+#             */
-/*   Updated: 2022/09/17 10:07:39 by naazafrin        ###   ########.fr       */
+/*   Updated: 2022/09/20 18:42:06 by nafrin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include "libft.h"
 
@@ -41,5 +40,3 @@ int	ft_atoi(const char *str)
 	}
 	return (result * sign);
 }
-
-
